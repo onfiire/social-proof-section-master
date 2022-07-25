@@ -1,5 +1,5 @@
 /*--------------Font------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
 /*--------------Font------------------*/
 
 /*--------------Reset-----------------*/
@@ -47,6 +47,7 @@ body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     font-size: 1.6rem;
+    font-family: 'League Spartan';
 }
 /*--------------Reset-----------------*/
 
@@ -81,8 +82,7 @@ body {
     background-color: hsl(300, 43%, 22%);
     padding: 2em;
     border-radius: 10px;
-
-     }
+  }
   
   .grid-review1 { grid-area: 10 / 3 / 11 / 4;
     background-color: hsl(300, 43%, 22%);
@@ -98,7 +98,6 @@ body {
     margin-top: 2em;
     margin-bottom: -2em; }
  
-  
   .grid-star {
     justify-self: end;
     grid-area: 8 / 4 / 9 / 5;
@@ -108,7 +107,6 @@ body {
     text-align: center;
     border-radius: 10px;
     margin-top: -4em;
-    
   }
   
   .grid-star1 {
@@ -132,7 +130,6 @@ body {
     text-align: center;
     border-radius: 10px;
     margin-right: 4em;
-    
   }
 /*---------------Grid-----------------*/
 
@@ -148,6 +145,7 @@ body {
     color: white;
     margin-left: 5em;
     margin-top: -3.5em;
+    font-weight: 700;
   }
 
  h3 {
@@ -158,26 +156,28 @@ body {
 
  .review{
      color: white;
-     width: 34ch;
-    
+     width: 30ch;
   }
 
  .review1{
      color: white;
-     width: 33ch;
+     width: 28ch;
   }
 
  h1 {
      font-size: 5rem;
      width: 15ch;
      line-height: 55px;
+     color: hsl(300, 43%, 22%);
+     font-weight: 700;
   }
 
  .description {
      color: hsl(303, 10%, 53%);
      padding-top: 2em;
-     width: 47ch;
-     font-size: 1.8remw;
+     width: 40ch;
+     font-size: 1.8rem;
+     font-weight: 500;
   }
  
  h4 {
@@ -204,8 +204,7 @@ body {
         grid-auto-flow: row;
         margin-bottom: 350px;
         margin-top: 50px;
-        
-      }
+     }
       
       .grid-container {  display: grid;
         grid-template-columns: 1fr;
@@ -216,8 +215,7 @@ body {
         grid-area: 1 / 1 / 2 / 2;
         height: 100vh;
         margin: auto;
-        
-      }
+     }
       
       .grid-text { grid-area: 1 / 1 / 2 / 2;
         margin: 0 auto;
@@ -228,45 +226,43 @@ body {
       
       .grid-star { grid-area: 2 / 1 / 3 / 2;
         margin: 0 auto;
-        width: 325px;
+        width: 345px;
         height: 100%;
         padding: 1em;
-          }
+     }
       
       .grid-star1 { grid-area: 3 / 1 / 4 / 2;
         margin: 0 auto;
         padding: 1em;
-        width: 325px;
+        width: 345px;
         height: 100%; }
       
       .grid-star2 { grid-area: 4 / 1 / 5 / 2;
         margin: 0 auto;
         padding: 1em;
-        width: 325px;
+        width: 345px;
         height: 100%; }
       
       .grid-review { grid-area: 5 / 1 / 6 / 2; }
       
-      .grid-review1 { grid-area: 6 / 1 / 7 / 2; }
+      .grid-review1 { 
+        grid-area: 6 / 1 / 7 / 2;
+        width: 100%;
+     }
       
       .grid-review2 { grid-area: 7 / 1 / 8 / 2; }
+
       h1 {
         font-size: 4rem;
         width: 15ch;
         line-height: 35px;
-        margin-left: -.3em;
-        
-     }
-     .description {
-
-        width: 300px;
-     
         margin-left: -1em;
      }
+     .description {
+        width: 340px;
+        margin-left: -1.8em;
+     }
      h4 {
-       
         padding-top: 0;
-
-      
-}
+     }
 }
